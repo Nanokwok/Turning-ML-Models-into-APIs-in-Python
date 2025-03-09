@@ -62,6 +62,6 @@ curl -X POST "http://127.0.0.1:12345/predict" -H "Content-Type: application/json
 
 ## Expected Output
 ```json
-{"prediction": [0, 1, 1]}
+{"prediction": [0, 1]}
 ```
 Where `0` means **Not Survived** and `1` means **Survived**.
